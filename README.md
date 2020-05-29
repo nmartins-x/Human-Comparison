@@ -8,54 +8,54 @@ It calculates the similarity between two strings with a more human approach tryi
 
 Loss of insignificant words: "loans and accounts" and "loans accounts"
 ```
-humanComparison(): 		89.6%
+human_comparison(): 		89.6%
 similar_text(): 		87.5%
 Levenshtein:			78%
-Smith-Waterman Gotoh:	89%
+Smith-Waterman Gotoh:	  89%
 Jaro Winkler:			93%
 ```
 
 Small changes: "loans and accounts" and "loan and account"
 ```
-humanComparison(): 		93.3%
+human_comparison(): 		93.3%
 similar_text(): 		94.1%
 Levenshtein:			89%
-Smith-Waterman Gotoh:	94%
+Smith-Waterman Gotoh:	  94%
 Jaro Winkler:			98%
 ```
 
 Rearrangment of words: "loans and accounts" and "accounts and loans"
 ```
-humanComparison(): 		50%
+human_comparison(): 		50%
 similar_text(): 		44.4%
 Levenshtein:			44%
-Smith-Waterman Gotoh:	47%
+Smith-Waterman Gotoh:	  47%
 Jaro Winkler:			0%
 ```
 
 Punctuation: "fishing, "camping"; and 'forest$" and "fishing camping and forest".
 ```
-humanComparison(): 		100%
+human_comparison(): 		100%
 similar_text(): 		85.2%
 Levenshtein:			84%
-Smith-Waterman Gotoh:	84%
+Smith-Waterman Gotoh:	  84%
 Jaro Winkler:			97%
 ```
 
 Spacing: "LoanAccountDealing" "Load, Account, Dealing".
 ```
-humanComparison(): 		94.4%
+human_comparison(): 		94.4%
 similar_text(): 		85%
 Levenshtein:			77%
-Smith-Waterman Gotoh:	78%
+Smith-Waterman Gotoh:	  78%
 Jaro Winkler:			91%
 ```
 
 Test: "Harry Potter" and "Potter Harry". Try
 ```
-humanComparison(): 		54.5%
+human_comparison(): 		54.5%
 similar_text(): 		50%
 Levenshtein:			0%
-Smith-Waterman Gotoh:	50%
+Smith-Waterman Gotoh:	  50%
 Jaro Winkler:			0%
 ```
