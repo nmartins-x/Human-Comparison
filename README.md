@@ -2,7 +2,7 @@
 
 A complementary algorithm to PHP's native function [`similar_text()`](https://www.php.net/manual/en/function.similar-text.php) .
 
-It calculates the similarity between two strings with a more human approach trying to emulate how a normal person would interpret and compare two strings of text.
+It calculates the similarity between two strings with a more human approach trying to emulate how a normal person would interpret and compare two strings of text. Returns the percentage value of the similarity.
 
 # Comparison with different algorithms
 
